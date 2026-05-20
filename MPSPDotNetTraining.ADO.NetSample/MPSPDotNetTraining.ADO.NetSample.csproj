@@ -1,0 +1,91 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="ADO.NET\.git\ms-persist.xml" />
+    <Content Include="ADO.NET\.vs\ADO.NET\v17\DocumentLayout.backup.json" />
+    <Content Include="ADO.NET\.vs\ADO.NET\v17\DocumentLayout.json" />
+    <Content Include="ADO.NET\.vs\ProjectSettings.json" />
+    <Content Include="ADO.NET\.vs\VSWorkspaceState.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ADO.NET\.github\copilot-instructions.md" />
+    <None Include="ADO.NET\.git\COMMIT_EDITMSG" />
+    <None Include="ADO.NET\.git\config" />
+    <None Include="ADO.NET\.git\description" />
+    <None Include="ADO.NET\.git\FETCH_HEAD" />
+    <None Include="ADO.NET\.git\HEAD" />
+    <None Include="ADO.NET\.git\hooks\applypatch-msg.sample" />
+    <None Include="ADO.NET\.git\hooks\commit-msg.sample" />
+    <None Include="ADO.NET\.git\hooks\fsmonitor-watchman.sample" />
+    <None Include="ADO.NET\.git\hooks\post-update.sample" />
+    <None Include="ADO.NET\.git\hooks\pre-applypatch.sample" />
+    <None Include="ADO.NET\.git\hooks\pre-commit.sample" />
+    <None Include="ADO.NET\.git\hooks\pre-merge-commit.sample" />
+    <None Include="ADO.NET\.git\hooks\pre-push.sample" />
+    <None Include="ADO.NET\.git\hooks\pre-rebase.sample" />
+    <None Include="ADO.NET\.git\hooks\pre-receive.sample" />
+    <None Include="ADO.NET\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="ADO.NET\.git\hooks\push-to-checkout.sample" />
+    <None Include="ADO.NET\.git\hooks\sendemail-validate.sample" />
+    <None Include="ADO.NET\.git\hooks\update.sample" />
+    <None Include="ADO.NET\.git\index" />
+    <None Include="ADO.NET\.git\info\exclude" />
+    <None Include="ADO.NET\.git\logs\HEAD" />
+    <None Include="ADO.NET\.git\logs\refs\heads\master" />
+    <None Include="ADO.NET\.git\logs\refs\remotes\origin\HEAD" />
+    <None Include="ADO.NET\.git\logs\refs\remotes\origin\master" />
+    <None Include="ADO.NET\.git\objects\1a\206f40b9936bf278cbae71343c41a324c842ad" />
+    <None Include="ADO.NET\.git\objects\1f\f0c423042b46cb1d617b81efb715defbe8054d" />
+    <None Include="ADO.NET\.git\objects\26\a008fb113d8d730ec65cc4175dfb6c36d14c48" />
+    <None Include="ADO.NET\.git\objects\50\f82c34563dc84842e953f052a08399c9e04622" />
+    <None Include="ADO.NET\.git\objects\89\716f23291fbb6c3e52d124b1b0726fddc68e26" />
+    <None Include="ADO.NET\.git\objects\90\e140d188ba26810f86bfdc5ebd094ddebbd5e2" />
+    <None Include="ADO.NET\.git\objects\94\91a2fda28342ab358eaf234e1afe0c07a53d62" />
+    <None Include="ADO.NET\.git\objects\aa\723bbe694de5deee94865c4364f4e21608e047" />
+    <None Include="ADO.NET\.git\objects\b9\8d02dbfc5ec634fea70eb7b3aed3ba1af0f875" />
+    <None Include="ADO.NET\.git\objects\bd\c8f95e6b7544424dceaf473f8037046e5af2b2" />
+    <None Include="ADO.NET\.git\objects\d0\aaf0394deda5b73a56c5ab351ac4b945ce75ca" />
+    <None Include="ADO.NET\.git\objects\dc\40cd22b7d0ec8fa235d39d682e6f5818c90271" />
+    <None Include="ADO.NET\.git\objects\e4\0201cf12a50546b63ac5cc44278d1c3a91bd61" />
+    <None Include="ADO.NET\.git\objects\f0\d3a70ceaa69fb70811f58254dc738e0f939eac" />
+    <None Include="ADO.NET\.git\refs\heads\master" />
+    <None Include="ADO.NET\.git\refs\remotes\origin\HEAD" />
+    <None Include="ADO.NET\.git\refs\remotes\origin\master" />
+    <None Include="ADO.NET\.vs\ADO.NET\CopilotIndices\17.14.1679.25730\CodeChunks.db" />
+    <None Include="ADO.NET\.vs\ADO.NET\CopilotIndices\17.14.1679.25730\SemanticSymbols.db" />
+    <None Include="ADO.NET\.vs\ADO.NET\DesignTimeBuild\.dtbcache.v2" />
+    <None Include="ADO.NET\.vs\ADO.NET\FileContentIndex\40a89dc5-5c9a-4ea8-92ec-0647975cc745.vsidx" />
+    <None Include="ADO.NET\.vs\ADO.NET\FileContentIndex\56921a46-d7fe-4bd6-8b22-37df4cf166cb.vsidx" />
+    <None Include="ADO.NET\.vs\ADO.NET\FileContentIndex\96d4f9af-59fc-4db0-a5d8-269801454b30.vsidx" />
+    <None Include="ADO.NET\.vs\ADO.NET\FileContentIndex\ce6c07b7-c39f-4ff2-a0bd-9acbea1fa076.vsidx" />
+    <None Include="ADO.NET\.vs\ADO.NET\v17\.futdcache.v2" />
+    <None Include="ADO.NET\.vs\ProjectEvaluation\ado.net.metadata.v9.bin" />
+    <None Include="ADO.NET\.vs\ProjectEvaluation\ado.net.projects.v9.bin" />
+    <None Include="ADO.NET\.vs\ProjectEvaluation\ado.net.strings.v9.bin" />
+    <None Include="ADO.NET\.vs\slnx.sqlite" />
+    <None Include="ADO.NET\ADO.NET.sln" />
+    <None Include="ADO.NET\ADO.NET\ADO.NET.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ADO.NET\.git\objects\info\" />
+    <Folder Include="ADO.NET\.git\objects\pack\" />
+    <Folder Include="ADO.NET\.git\refs\tags\" />
+    <Folder Include="ADO.NET\ADO.NET\bin\Release\net8.0\" />
+    <Folder Include="ADO.NET\ADO.NET\obj\Release\net8.0\refint\" />
+    <Folder Include="ADO.NET\ADO.NET\obj\Release\net8.0\ref\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.1" />
+  </ItemGroup>
+
+</Project>
