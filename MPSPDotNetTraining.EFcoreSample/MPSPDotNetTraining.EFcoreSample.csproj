@@ -1,46 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <Content Include="EFCoreShop\.vs\EFCoreShop\v17\DocumentLayout.backup.json" />
-    <Content Include="EFCoreShop\.vs\EFCoreShop\v17\DocumentLayout.json" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.11" />
 
-  <ItemGroup>
-    <None Include="EFCoreShop\.github\copilot-instructions.md" />
-    <None Include="EFCoreShop\.vs\EFCoreShop\CopilotIndices\17.14.1679.25730\CodeChunks.db" />
-    <None Include="EFCoreShop\.vs\EFCoreShop\CopilotIndices\17.14.1679.25730\SemanticSymbols.db" />
-    <None Include="EFCoreShop\.vs\EFCoreShop\DesignTimeBuild\.dtbcache.v2" />
-    <None Include="EFCoreShop\.vs\EFCoreShop\FileContentIndex\4a396c82-fd8c-4535-9245-0dce98e86c7e.vsidx" />
-    <None Include="EFCoreShop\.vs\EFCoreShop\FileContentIndex\4b0a1764-ff30-48bf-8061-09a78d25b0c7.vsidx" />
-    <None Include="EFCoreShop\.vs\EFCoreShop\FileContentIndex\ae40b1b0-358a-4fad-aaf9-43b6aafb6f52.vsidx" />
-    <None Include="EFCoreShop\.vs\EFCoreShop\FileContentIndex\ae615719-e204-45ad-89d4-ea11991edba6.vsidx" />
-    <None Include="EFCoreShop\.vs\EFCoreShop\FileContentIndex\f5d9a0b7-cd70-4b93-919e-708c3c406704.vsidx" />
-    <None Include="EFCoreShop\.vs\EFCoreShop\v17\.futdcache.v2" />
-    <None Include="EFCoreShop\.vs\ProjectEvaluation\efcoreshop.metadata.v9.bin" />
-    <None Include="EFCoreShop\.vs\ProjectEvaluation\efcoreshop.projects.v9.bin" />
-    <None Include="EFCoreShop\.vs\ProjectEvaluation\efcoreshop.strings.v9.bin" />
-    <None Include="EFCoreShop\EFCoreShop.sln" />
-    <None Include="EFCoreShop\EFCoreShop\EFCoreShop.csproj" />
-  </ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.11">
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+			<PrivateAssets>all</PrivateAssets>
+		</PackageReference>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.11" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.11">
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.11" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.11">
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
-  </ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.11" />
+
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.11">
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+			<PrivateAssets>all</PrivateAssets>
+		</PackageReference>
+	</ItemGroup>
 
 </Project>

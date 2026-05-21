@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.37301.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPSPDotNetTrainingDapperSample", "MPSPDotNetTraining.Dapper.NetSample\MPSPDotNetTrainingDapperSample.csproj", "{37B6E857-469B-E2AE-ED47-D2D1E3FDC1DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPSPDotNetTraining.AdoDotNetSample", "MPSPDotNetTraining.AdoDotNetSample\MPSPDotNetTraining.AdoDotNetSample.csproj", "{C615C65E-2FB0-4166-B808-4DAE73B52848}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPSPDotNetTraining.ADO.NetSample", "MPSPDotNetTraining.ADO.NetSample\MPSPDotNetTraining.ADO.NetSample.csproj", "{14F41BA2-C082-81F4-A3BF-5DF1A72F1509}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPSPDotNetTraining.DapperSample", "MPSPDotNetTraining.DapperSample\MPSPDotNetTraining.DapperSample.csproj", "{7AA4FA07-2258-49FE-9078-71B5D75B6501}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPSPDotNetTraining.EFcoreSample", "MPSPDotNetTraining.EFcoreSample\MPSPDotNetTraining.EFcoreSample.csproj", "{213F8927-2778-AC42-F37E-30291C31EDBC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPSPDotNetTraining.EFCoreExample", "MPSPDotNetTraining.EFCoreExample\MPSPDotNetTraining.EFCoreExample.csproj", "{9ADEC517-59ED-4029-AE33-9E8D74FFC230}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{37B6E857-469B-E2AE-ED47-D2D1E3FDC1DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{37B6E857-469B-E2AE-ED47-D2D1E3FDC1DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{37B6E857-469B-E2AE-ED47-D2D1E3FDC1DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{37B6E857-469B-E2AE-ED47-D2D1E3FDC1DB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{14F41BA2-C082-81F4-A3BF-5DF1A72F1509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{14F41BA2-C082-81F4-A3BF-5DF1A72F1509}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{14F41BA2-C082-81F4-A3BF-5DF1A72F1509}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{14F41BA2-C082-81F4-A3BF-5DF1A72F1509}.Release|Any CPU.Build.0 = Release|Any CPU
-		{213F8927-2778-AC42-F37E-30291C31EDBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{213F8927-2778-AC42-F37E-30291C31EDBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{213F8927-2778-AC42-F37E-30291C31EDBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{213F8927-2778-AC42-F37E-30291C31EDBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C615C65E-2FB0-4166-B808-4DAE73B52848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C615C65E-2FB0-4166-B808-4DAE73B52848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C615C65E-2FB0-4166-B808-4DAE73B52848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C615C65E-2FB0-4166-B808-4DAE73B52848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA4FA07-2258-49FE-9078-71B5D75B6501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA4FA07-2258-49FE-9078-71B5D75B6501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA4FA07-2258-49FE-9078-71B5D75B6501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA4FA07-2258-49FE-9078-71B5D75B6501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ADEC517-59ED-4029-AE33-9E8D74FFC230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ADEC517-59ED-4029-AE33-9E8D74FFC230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ADEC517-59ED-4029-AE33-9E8D74FFC230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ADEC517-59ED-4029-AE33-9E8D74FFC230}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
